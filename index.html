@@ -20,11 +20,10 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="icon" type="image/png" href="assets/logoweb.png">
 </head>
-<body class="p-3 m-0 border-0 bd-example ">
-    <body class="p-3 m-0 border-0 bd-example "></body>
+<body class="">
 <nav class="navbar navbar-expand">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="assets/logoweb.png" alt="profile-picture" class="profile-picture">
+    <a class="navbar-brand" href="#"><img src="assets/logoweb.png" alt="profile-picture" class="web-logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +32,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">home</a>
+          <a class="nav-link active" href="index.html">home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="portfolio.html">projecten</a>
@@ -49,29 +48,49 @@
     </div>
   </div>
 </nav>
-<header class="row m-5">
-    <h1 class="portfolio">Portfolio</h1>
-</header>
-<p class="inleiding">Mijn naam is Axel Soebert en ik ben een toegewijde student Systeem- en Netwerkbeheer aan de Hogeschool Antwerpen. 
-    Al van jongs af aan heb ik een passie voor technologie en het oplossen van technische problemen.
-    Deze interesse heeft zich ontwikkeld tot een diepgaande fascinatie voor informatietechnologie en netwerkoplossingen.
-</p>
-<p class="inleiding"> Ik haal veel voldoening uit het analyseren van complexe IT-omgevingen, het begrijpen van de systemen, en het zoeken naar manieren om deze efficiënter,
-    veiliger en betrouwbaarder te maken. Tijdens mijn opleiding heb ik zowel theoretische kennis als praktische vaardigheden opgedaan,
-    en ik kijk ernaar uit om deze verder te ontwikkelen binnen een professionele context.
-</p>
-<p class="inleiding">Met mijn leergierige houding, oog voor detail en doorzettingsvermogen wil ik bijdragen aan innovatieve IT-oplossingen en tegelijkertijd blijven groeien als IT-professional.
-</p>
+<main>
+  <div class="container">
+    <header class="row m-5">
+        <h1 class="portfolio">Portfolio</h1>
+    </header>
+  </div>
+  
+      <div class="container-inleiding d-flex flex-column align-items-center">
+      <p class="inleiding text-center">Mijn naam is Axel Soebert en ik ben een toegewijde student Systeem- en Netwerkbeheer aan de Hogeschool Antwerpen. 
+          Al van jongs af aan heb ik een passie voor technologie en het oplossen van technische problemen.
+          Deze interesse heeft zich ontwikkeld tot een diepgaande fascinatie voor informatietechnologie en netwerkoplossingen.
+          <img class="image-me" src="assets/logo.png" alt="Ik">
+        
+      </p>
+      </div>
+      <div class="container-inleiding">
+      <p class="inleiding text-center"> Ik haal veel voldoening uit het analyseren van complexe IT-omgevingen, het begrijpen van de systemen, en het zoeken naar manieren om deze efficiënter,
+          veiliger en betrouwbaarder te maken. Tijdens mijn opleiding heb ik zowel theoretische kennis als praktische vaardigheden opgedaan,
+          en ik kijk ernaar uit om deze verder te ontwikkelen binnen een professionele context.
+      </p>
+      </div>
+      <div class="container-inleiding mb-5">
+      <p class="inleiding text-center">Met mijn leergierige houding, oog voor detail en doorzettingsvermogen wil ik bijdragen aan innovatieve IT-oplossingen en tegelijkertijd blijven groeien als IT-professional.
+      </p>
+      </div>
+      </main>
+       
+       <aside class="contact-container">
+          <h2>Contact</h2>
+          <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#contactDetails" aria-expanded="false" aria-controls="contactDetails">
+            toon/verberg
+          </button>
+          <div class="collapse" id="contactDetails">
+            <p><a href="mailto:Axelsoebert@gmail.com">Axelsoebert@gmail.com</a>
+            <p><strong>Telefoon:</strong> +32 483 63 05 88</p>
+            <p><strong><a href="https://www.linkedin.com/in/axel-soebert-035a87291/" target="_blank">LinkedIn</a></p>
+            <p><strong><a href="https://github.com/Axel-SOE" target="_blank">GitHub</a></p>
+            <p><strong>Locatie:</strong> Antwerpen, België</p>
+        </div>
+      </aside>
 
-<div class="container"> 
-  <article class="col-12 col-sm-6 col-md-4">
-      <figure>
-        <img src="assets/home1.jpg" class="image-home">
-      </figure>
-    </a>
-  </article>
-      
-</div>
-
+        <footer>
+          <p>&copy; 2025 Axel Soebert. Alle rechten voorbehouden.</p>
+      </footer>      
 </body>
 </html>
