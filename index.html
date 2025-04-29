@@ -34,13 +34,23 @@
         <li class="nav-item">
           <a class="nav-link active" href="index.html">home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="portfolio.html">projecten</a>
+        <li class="dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="projectenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">projecten</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="portfolio.html">overzicht</a></li>
+            <li><a class="dropdown-item" href="#">webwiz</a></li>
+            <li><a class="dropdown-item" href="#">project 2</a></li>
+            <li><a class="dropdown-item" href="#">project 3</a></li>
+            <li><a class="dropdown-item" href="#">project 4</a></li>
+            <li><a class="dropdown-item" href="#">project 5</a></li>
+            <li><a class="dropdown-item" href="#">project 6</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">contact</a>
         </li>
       </ul>
+
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
         <button class="btn btn-sm btn-outline-secondary button-kleur" type="submit">zoeken</button>
@@ -56,7 +66,7 @@
   </div>
   
       <div class="container-inleiding d-flex flex-column align-items-center">
-      <p class="inleiding text-center">Mijn naam is Axel Soebert en ik ben een toegewijde student Systeem- en Netwerkbeheer aan de Hogeschool Antwerpen. 
+      <p class="inleiding">Mijn naam is Axel Soebert en ik ben een toegewijde student Systeem- en Netwerkbeheer aan de Hogeschool Antwerpen. 
           Al van jongs af aan heb ik een passie voor technologie en het oplossen van technische problemen.
           Deze interesse heeft zich ontwikkeld tot een diepgaande fascinatie voor informatietechnologie en netwerkoplossingen.
           
@@ -64,15 +74,19 @@
       </p>
       </div>
       <div class="container-inleiding">
-      <p class="inleiding text-center"> Ik haal veel voldoening uit het analyseren van complexe IT-omgevingen, het begrijpen van de systemen, en het zoeken naar manieren om deze efficiënter,
+      <p class="inleiding"> Ik haal veel voldoening uit het analyseren van complexe IT-omgevingen, het begrijpen van de systemen, en het zoeken naar manieren om deze efficiënter,
           veiliger en betrouwbaarder te maken. Tijdens mijn opleiding heb ik zowel theoretische kennis als praktische vaardigheden opgedaan,
           en ik kijk ernaar uit om deze verder te ontwikkelen binnen een professionele context.
       </p>
       </div>
-      <div class="container-inleiding mb-5">
-      <p class="inleiding text-center">Met mijn leergierige houding, oog voor detail en doorzettingsvermogen wil ik bijdragen aan innovatieve IT-oplossingen en tegelijkertijd blijven groeien als IT-professional.
+      <div class="container-inleiding">
+      <p class="inleiding">Met mijn leergierige houding, oog voor detail en doorzettingsvermogen wil ik bijdragen aan innovatieve IT-oplossingen en tegelijkertijd blijven groeien als IT-professional.
       </p>
       </div>
+
+      <main>
+
+
       </main>
        
        <aside class="contact-container">
@@ -82,7 +96,7 @@
           </button>
           <div class="collapse" id="contactDetails">
             <p><a href="mailto:Axelsoebert@gmail.com">Axelsoebert@gmail.com</a>
-            <p><strong>Telefoon:</strong> +32 483 63 05 88</p>
+            <p><strong>Telefoon:</strong><a href="tel:+32483630588"></strong> +32 483 63 05 88</a></p>
             <p><strong><a href="https://www.linkedin.com/in/axel-soebert-035a87291/" target="_blank">LinkedIn</a></p>
             <p><strong><a href="https://github.com/Axel-SOE" target="_blank">GitHub</a></p>
             <p><strong>Locatie:</strong> Antwerpen, België</p>
@@ -92,6 +106,7 @@
 
         <footer>
           <p>&copy; 2025 Axel Soebert. Alle rechten voorbehouden.</p>
-      </footer>      
+      </footer>
+
 </body>
 </html>

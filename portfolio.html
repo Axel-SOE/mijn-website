@@ -32,15 +32,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link" href="index.html">home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="portfolio.html">projecten</a>
-            </li>
-            <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">home</a>
+          </li>
+          <li class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="projectenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">projecten</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="portfolio.html">overzicht</a></li>
+              <li><a class="dropdown-item" href="#">webwiz</a></li>
+              <li><a class="dropdown-item" href="#">project 2</a></li>
+              <li><a class="dropdown-item" href="#">project 3</a></li>
+              <li><a class="dropdown-item" href="#">project 4</a></li>
+              <li><a class="dropdown-item" href="#">project 5</a></li>
+              <li><a class="dropdown-item" href="#">project 6</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="contact.html">contact</a>
-            </li>
+          </li>
         </ul>
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
@@ -125,15 +134,16 @@
         <aside class="contact-container">
           <h2>Contact</h2>
           <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#contactDetails" aria-expanded="false" aria-controls="contactDetails">
-            toon/verberg
+              toon/verberg
           </button>
           <div class="collapse" id="contactDetails">
-            <p><a href="mailto:Axelsoebert@gmail.com">Axelsoebert@gmail.com</a>
-            <p><strong>Telefoon:</strong> +32 483 63 05 88</p>
-            <p><strong><a href="https://www.linkedin.com/in/axel-soebert-035a87291/" target="_blank">LinkedIn</a></p>
-            <p><strong>Locatie:</strong> Antwerpen, België</p>
-            <img class="image-me" src="assets/logo.png" alt="Ik">
-        </div>
+              <p><a href="mailto:Axelsoebert@gmail.com">Axelsoebert@gmail.com</a>
+              <p><strong>Telefoon:</strong><a href="tel:+32483630588"></strong> +32 483 63 05 88</a></p>
+              <p><strong><a href="https://www.linkedin.com/in/axel-soebert-035a87291/" target="_blank">LinkedIn</a></p>
+              <p><strong><a href="https://github.com/Axel-SOE" target="_blank">GitHub</a></p>
+              <p><strong>Locatie:</strong> Antwerpen, België</p>
+              <img class="image-me" src="assets/logo.png" alt="Ik">
+          </div>
       </aside>
   
     </div>
