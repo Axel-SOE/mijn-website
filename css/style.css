@@ -166,7 +166,8 @@ html, body {
 }
 
 .carousel {
-    scale: 50%;
+    position: absolute;
+    padding: 120px;
 }
   footer {
     position: fixed;
