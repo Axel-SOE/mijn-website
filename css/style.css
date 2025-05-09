@@ -181,6 +181,11 @@ html, body {
     padding: 4px;   
 }
 
+#apMap {
+  height: 300px; 
+  width: 100%; 
+}
+
 @media (min-width: 320px) {
     .container-inleiding {
         max-width: 320px;
