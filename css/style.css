@@ -48,14 +48,6 @@ html, body {
     border-radius: 100%;
 }
 
-.padding-index {
-    padding-left: 100px;
-}
-
-main.padding-index {
-    padding-bottom: 100px; 
-}
-
 .portfolio{
     color: #3703e4;;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -103,9 +95,11 @@ main.padding-index {
     word-spacing: 5px;
     letter-spacing: 2px;
     margin-top: 40px;
-    margin-bottom: 40px;   
-    text-align: center;
+    margin-bottom: 40px;  
     color: white;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .image-me {
@@ -119,7 +113,8 @@ main.padding-index {
     width: 100%;
     background: linear-gradient(135deg, #0c3d5e, #2e18be);
     border-radius: 50px;
-    height: auto;  
+
+    line-height: 1.6;
 }
     
 .contact-container {
@@ -170,6 +165,9 @@ main.padding-index {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+.carousel {
+    scale: 50%;
+}
   footer {
     position: fixed;
     bottom: 0px;
@@ -185,30 +183,42 @@ main.padding-index {
 @media (min-width: 320px) {
     .container-inleiding {
         max-width: 320px;
-        margin: 20px;
+        margin: auto;
+    }
+    .portfolio {
+        text-align: center;
     }
     .contact-container {
-        scale: 70%;
+        display: none;
       }
 }
-
+    
 @media (min-width: 720px) {
     .container-inleiding {
-        max-width: 320px;
+        max-width: 720px;
         margin: 50px;
+    }
+    .portfolio {
+        text-align: left;
     }
     .contact-container {
         scale: 75%;
+        display: block;
       }
 }
 
 @media (min-width: 1024px) {
     .container-inleiding {
-        max-width: 960px;
+        max-width: 1024px;
         margin: 40px;
+        padding-left: 100px;
+    }
+    .portfolio {
+        text-align: left;
     }
     .contact-container {
         scale: 100%;
+        display: block;
       }
 }
 
