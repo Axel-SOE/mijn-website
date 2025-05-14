@@ -1,13 +1,10 @@
-body {
+html, body {
+    
     background-color: rgb(43, 42, 42);
     color: white;
     background-image: url("../assets/achtergrond.jpg");
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-html, body {
-    overflow-x: hidden;
-  }
 
 .nav-link.active {
     color: white !important;
@@ -23,15 +20,11 @@ html, body {
     height: 75px; 
     border-radius: 100%; 
     object-fit: cover; 
-    border: 2px solid #ffffff; 
+    border: 3px solid #ffffff; 
 }
 
 .navbar {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: fixed;
     background: rgb(216, 215, 215);
-    align-items: center;
-    justify-content: space-between;
     border: 0.5px solid rgb(255, 255, 255);
     padding: 5px;
     border-radius: 12px;
@@ -39,7 +32,7 @@ html, body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    z-index: 1000
+    z-index: 1000; 
 }
 
 .dropdown-menu {
@@ -64,8 +57,6 @@ html, body {
 
 .portfolio{
     color: #3703e4;;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-weight: bold;
     letter-spacing: 5px;
     margin-top: 100px;
 }
@@ -74,13 +65,7 @@ html, body {
     color: white;
 }
 
-.button-kleur {
-    color: white;
-}
-
 .contactpagina {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -90,38 +75,27 @@ html, body {
 }
 
 .inleiding {
-    font-size: auto;
     margin-left: 50px;
     margin-right: 50px;
     line-height: 1.8;
     word-spacing: 5px;
     letter-spacing: 2px;
-    margin-top: 40px;
-    margin-bottom: 40px;  
-    color: white;
-    text-align: left;
-    word-wrap: break-word;
-    white-space: normal;
 }
 
 .image-me {
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
     border-radius: 50px;
     scale: 65%;
 }
    
 .contact-container {
-    position: fixed;
+    position: absolute;
     top: 150px;
-    right: 30px; 
-    background-color: #1e1e1e; 
-    color: white;
+    right: 20px;  
     border-radius: 10px;
     width: 250px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    
   }
 
 .contact-container a {
@@ -134,7 +108,6 @@ html, body {
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: 0.3s ease, 0.3s ease;
     height: 85%;
   }
@@ -151,10 +124,7 @@ html, body {
 
 .container-projecten{
     scale: 85%;
-    background-color: #1e1e1e;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: 0.3s ease, 0.3s ease;
 }
 
@@ -164,17 +134,15 @@ html, body {
 
 .carousel {
     position: absolute;
-    padding: 120px;
+    top: 100px;
 }
+
   footer {
     position: fixed;
     bottom: 0px;
-    left: 0px;
-    background-color:  #1d1c1c; 
-    color: #ccc; 
+    left: 0px; 
     text-align: center; 
     width: 100%;
-    padding: 4px;   
 }
 
 #apMap {
