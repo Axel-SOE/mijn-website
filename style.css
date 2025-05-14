@@ -186,7 +186,7 @@ html, body {
     .contact-container {
         display: none;
       }
-    #zoeken-button {
+    #searchbar {
         display: none;
     }
 }
