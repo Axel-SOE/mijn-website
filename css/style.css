@@ -141,6 +141,11 @@ main {
     scale: 75%;
 }
 
+#A, #APcollege {
+    border-radius: 50px;
+    
+}
+
   footer {
     position: relative;
     bottom: 0px;
