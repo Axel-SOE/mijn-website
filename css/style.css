@@ -1,5 +1,4 @@
 html, body {
-    
     background-color: rgb(43, 42, 42);
     color: white;
     background-image: url("../assets/achtergrond.jpg");
@@ -134,19 +133,21 @@ html, body {
 
 .carousel {
     position: absolute;
-    top: 100px;
+    scale: 75%;
 }
 
   footer {
-    position: sticky;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     background-color:  #1d1c1c; 
     color: #ccc;  
     text-align: center; 
     width: 100%;
-    padding: 3px;  
+    padding: 4px;
 }
 
-#apMap {
+#map {
   height: 300px; 
   width: 100%; 
 }
