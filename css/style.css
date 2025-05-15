@@ -138,11 +138,12 @@ html, body {
 }
 
   footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px; 
+    position: sticky;
+    background-color:  #1d1c1c; 
+    color: #ccc;  
     text-align: center; 
     width: 100%;
+    padding: 3px;  
 }
 
 #apMap {
