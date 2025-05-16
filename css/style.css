@@ -59,10 +59,9 @@ main {
     border-radius: 100%;
 }
 
-.portfolio{
+.portfolio-title{
     color: #3703e4;;
-    letter-spacing: 5px;
-    margin-top: 100px;
+    letter-spacing: 2px;
 }
 
 .nav-link {
@@ -78,12 +77,16 @@ main {
     box-sizing: border-box;
 }
 
-.inleiding {
-    margin-left: 50px;
-    margin-right: 50px;
-    line-height: 1.8;
-    word-spacing: 5px;
+.inleiding-text {
+    line-height: 1.7;
+    word-spacing: 4px;
     letter-spacing: 2px;
+}
+
+.inleiding-container {
+    box-shadow: 0 0 15px rgba(0,0,0,0.9);
+    border-radius: 50px;
+    background-color: rgba(33, 32, 32, 0.9);
 }
 
 .image-me {
@@ -108,10 +111,10 @@ main {
   }
 
   .container-form{
-    background-color: #1e1e1e;
+    background-color: rgba(33, 32, 32, 0.9);
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     transition: 0.3s ease, 0.3s ease;
     height: 85%;
   }
@@ -146,22 +149,6 @@ main {
     
 }
 
-  footer {
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    background-color:  #1d1c1c; 
-    color: #ccc;  
-    text-align: center; 
-    width: 100%;
-    padding: 4px;
-}
-
-#map {
-  height: 300px; 
-  width: 100%; 
-}
-
 @media (min-width: 320px) {
     .contact-container {
         display: none;
@@ -170,7 +157,7 @@ main {
     
 @media (min-width: 720px) {
     .contact-container {
-        scale: 75%;
+        scale: 80%;
         display: block;
       }
 }
