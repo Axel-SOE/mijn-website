@@ -2,7 +2,6 @@ html, body {
     color: white;
     background-image: url('/assets/achtergrond.jpg');
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100%;
     overflow-x: hidden;
 }
 
@@ -70,12 +69,8 @@ main {
 }
 
 .contactpagina {
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    max-width: 1200px;
-    padding: 20px;
-    box-sizing: border-box;
+    max-width: 1000px;
 }
 
 .inleiding-text {
@@ -120,7 +115,7 @@ main {
     height: 85%;
   }
 
-  .container-form:hover, .container-projecten:hover {
+  .container-form:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
@@ -149,7 +144,6 @@ main {
     height: 300px;
     width: auto;
     border-radius: 50px;
-    
 }
 
 .custom-icon {
@@ -166,7 +160,7 @@ left: 0;
 text-align: center;
 }
 
-@media (min-width: 320px) {
+@media (min-width:320px) {
     .contact-container {
         display: none;
       }
