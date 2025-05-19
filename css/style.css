@@ -101,7 +101,7 @@ main {
     width: 300px;
     box-shadow: 0 0 15px rgba(0,0,0,0.9);
     text-align: center;
-    z-index: 1050
+    z-index: 1000;
   }
 
 .contact-container a {
