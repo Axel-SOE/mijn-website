@@ -78,7 +78,7 @@ main {
     line-height: 1.7;
     word-spacing: 4px;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .inleiding-container {
@@ -101,6 +101,7 @@ main {
     width: 300px;
     box-shadow: 0 0 15px rgba(0,0,0,0.9);
     text-align: center;
+    z-index: 1050
   }
 
 .contact-container a {
