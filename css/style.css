@@ -41,7 +41,6 @@ main {
     background-size: cover;
     background-position: center;
     width: 100%;
-    z-index: 1000; 
 }
 
 .dropdown-menu {
@@ -101,7 +100,7 @@ main {
     width: 300px;
     box-shadow: 0 0 15px rgba(0,0,0,0.9);
     text-align: center;
-    z-index: 1000;
+    z-index: 1;
   }
 
 .contact-container a {
