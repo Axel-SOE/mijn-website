@@ -78,6 +78,7 @@ main {
     line-height: 1.7;
     word-spacing: 4px;
     letter-spacing: 2px;
+    font-size: 15px;
 }
 
 .inleiding-container {
@@ -97,7 +98,7 @@ main {
     top: 230px;
     right: 35px;  
     border-radius: 50px;
-    width: 350px;
+    width: 300px;
     box-shadow: 0 0 15px rgba(0,0,0,0.9);
     text-align: center;
   }
